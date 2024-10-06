@@ -1,0 +1,42 @@
+.account{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    opacity: 0.8;
+}
+.account_head{
+    height: 50px;
+    background-color: #ededed;
+    align-content: center;
+    padding-left: 96px;
+} 
+.account_column_1{
+    position: relative;
+    left: 15px;
+}
+.account_column_1 li{
+    border: 1px solid #808080;
+    padding: 12px;
+    width: 500px;
+    margin-left: 49px;
+    list-style: none;
+    padding-left: 28px;
+}
+.account_column_1 .acc{
+    padding-left: 10px;
+}
+.account_column_2{
+    width: 649px;
+    margin-left: 37px;
+}
+.account_column_1 li:hover{
+    background-color: #088179;
+    color: #fff;
+}
+.account_column_2 h4{
+    background-color: #ededed;
+}
+.account_column_2 h4,
+.account_column_2 p{
+    border: 1px solid #808080;
+    padding: 14px;
+}
